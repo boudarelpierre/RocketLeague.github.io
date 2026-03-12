@@ -43,35 +43,35 @@ header {
     margin: auto;
 }
 
-main {
-    margin-left: 20%;
-    margin-right: 20%;
-    background-color: white;
-    padding-left: 20px;
-    padding-right: 20px;
-    padding-bottom: 80px;
+.grille {
+    margin-top: 50px;
+    margin-left: 260px;
+    margin-right: 260px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
 }
 
-.titrearticle {
-    font-size: 40px;
-    padding-top: 20px;
-    margin-bottom: 15px;
+.box {
+    width: 250px;
+    height: 250px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     color: black;
     font-family: "Anton", sans-serif;
     font-style: normal;
+    flex-direction: column;
 }
 
-.paris {
-    width: 810px;
-    display: block;
-    margin: auto;
-}
-
-p {
-    font-size: 20px;
-    margin-top: 30px;
-    font-family: "Roboto", sans-serif;
-  font-style: normal;
+.grille img {
+    width: 80%;
 }
 
 footer {
@@ -138,3 +138,4 @@ footer {
     display: flex;
     align-items: flex-start;
 }
+
